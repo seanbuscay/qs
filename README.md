@@ -14,8 +14,8 @@ If you don't want to install the lamp stack on top of your own, then comment out
 
 #### Run:
 
-        sudo apt-get -y install git-core
         cd ~
+        sudo apt-get -y install git-core
         git clone git://github.com/seanbuscay/qs.git quickstart
         
 #### Edit: initvars.sh.  
