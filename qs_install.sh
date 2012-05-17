@@ -8,6 +8,13 @@
 # Include our one time init varaibles.  Make sure you have already edited this file.
 source initvars.sh
 
+# ################################################################################ user management
+# Make quickstart a user of group www-data
+sudo adduser ${QS_USER} www-data
+# Make quickstart a user of group root to edit config files
+# note: seems unsafe for anyone unaware.  @FIXME -- add note to documentation
+sudo adduser ${QS_USER} root
+
 # Attempt to add your username as a sudo user who does not need to enter a password.
 # This is a security issue if you are on any public network.  
 echo "${QS_USER} ALL=(ALL) NOPASSWD: ALL" | sudo tee -a /etc/sudoers.d/${QS_USER} > /dev/null
