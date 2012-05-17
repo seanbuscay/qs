@@ -30,14 +30,6 @@ ini_set('session.gc_maxlifetime', \$cfg['LoginCookieValidity']);
 " | sudo tee -a /etc/phpmyadmin/config.inc.php
 
 
-# ################################################################################ user management
-# Make quickstart a user of group www-data
-sudo adduser ${QS_USER} www-data
-# Make quickstart a user of group root to edit config files
-# note: seems unsafe for anyone unaware.  @FIXME -- add note to documentation
-sudo adduser ${QS_USER} root
-
-
 # ################################################################################ Drupal sites
 # Create folder for websites to live in
 mkdir ~/websites
