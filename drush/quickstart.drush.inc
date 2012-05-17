@@ -1,5 +1,5 @@
 <?php
-include("quickstartvars.inc");
+include("quickstartvars.local.inc");
 include("quickstart.inc");
 
 /**
