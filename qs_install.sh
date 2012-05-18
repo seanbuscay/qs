@@ -15,7 +15,7 @@ source initvars.sh
 
 #trying old way because I'm getting permission errors
 
-echo "${QS_USER} ALL=(ALL) NOPASSWD: ALL" | sudo tee -a /etc/sudoers > /dev/null
+sudo echo "${QS_USER} ALL=(ALL) NOPASSWD: ALL" | sudo tee -a /etc/sudoers > /dev/null
 
 # ################################################################################ user management
 # Make quickstart a user of group www-data
