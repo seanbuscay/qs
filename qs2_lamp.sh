@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source initvars.sh
+source ~/quickstart/initvars.sh
 
 mkdir ~/websites
 

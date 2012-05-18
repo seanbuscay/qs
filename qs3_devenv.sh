@@ -3,7 +3,7 @@
 DRUSH_VERSION="7.x-5.1"
 cd ~
 
-source initvars.sh
+source ~/quickstart/initvars.sh
 
 # ################################################################################ Configure phpmyadmin
 
