@@ -1,15 +1,11 @@
 # Ignore anything in a private folder
 */private
 
-# Ignore anything with a .local in the name such as: quickstartvars.local.inc
+# Ignore anything in the .local directory
 
 *.local/*
 
 !*.local/README.md
-
-drush.local/*
-
-!drush.local/README.md
 
 # Ignore Eclipse IDE info
 .buildpath
