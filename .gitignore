@@ -7,6 +7,9 @@
 
 !*.local/README.md
 
+drush.local/*
+
+!drush.local/README.md
 
 # Ignore Eclipse IDE info
 .buildpath
