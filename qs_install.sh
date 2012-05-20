@@ -6,7 +6,7 @@
 # bash ~/quickstart/qs_install.sh
 
 # Include our one time init varaibles.  Make sure you have already edited this file.
-source ~/quickstart/initvars.sh
+source ~/quickstart/.local/initvars.sh
 
 # Attempt to add your username as a sudo user who does not need to enter a password.
 # This is a security issue if you are on any public network.  
