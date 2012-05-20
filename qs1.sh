@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source initvars.sh
+source ~/quickstart/initvars.sh
 
 sudo apt-get -yq install git-core
 sudo apt-get -yq install git 
