@@ -1,11 +1,9 @@
 # Ignore anything in a private folder
 */private
 
-# Ignore anything in the .local directory
+# Ignore all local directories
 
-*.local/*
-
-!*.local/README.md
+local/
 
 # Ignore Eclipse IDE info
 .buildpath
