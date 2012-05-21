@@ -17,15 +17,16 @@ If you don't want to install the lamp stack on top of your own, then comment out
         cd ~
         sudo apt-get -y install git-core
         git clone git://github.com/seanbuscay/qs.git quickstart
-        cp ~/quickstart/initvars.sh ~/quickstart/.local/initvars.sh
+        mkdir ~/quickstart/local
+        mkdir ~quickstart/drush/local
+        cp ~/quickstart/initvars.sh ~/quickstart/local/initvars.sh
+        cp ~/quickstart/drush/quickstartvars.inc ~/quickstart/local/quickstartvars.inc
         
-#### Edit: initvars.sh.  
+#### Edit: ~/quickstart/local/initvars.sh  
 
 Change the QS_PASS=quickstart & QS_USER=quickstart to your user name and your mysql password for the root mysql user.
 
-#### Rename: /drush/quickstartvars.inc to /drush/quickstartvars.local.inc
-
-#### Edit /drush/quickstartvars.local.inc
+#### Edit ~/quickstart/drush/local/quickstartvars.inc
 
 Change the QS_PASS & QS_USER to your user name and your mysql password for the root mysql user.
 
