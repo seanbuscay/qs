@@ -17,10 +17,7 @@ If you don't want to install the lamp stack on top of your own, then comment out
         cd ~
         sudo apt-get -y install git-core
         git clone git://github.com/seanbuscay/qs.git quickstart
-        mkdir ~/quickstart/local
-        mkdir ~quickstart/drush/local
-        cp ~/quickstart/initvars.sh ~/quickstart/local/initvars.sh
-        cp ~/quickstart/drush/quickstartvars.inc ~/quickstart/local/quickstartvars.inc
+        bash ~/quickstart/qs_install.sh
         
 #### Edit: ~/quickstart/local/initvars.sh  
 
