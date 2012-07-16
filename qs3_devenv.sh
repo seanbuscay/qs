@@ -1,6 +1,5 @@
 #!/bin/bash
 
-DRUSH_VERSION="7.x-5.1"
 cd ~
 
 source ~/quickstart/local/initvars.sh
