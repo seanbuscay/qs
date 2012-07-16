@@ -29,5 +29,5 @@ bash ~/quickstart/qs2_lamp.sh
 bash ~/quickstart/qs3_devenv.sh
 
 cd ~/websites
-drush qc --domain=example7.dev
-drush qc --domain=example6.dev --makefile=d6.make
+drush qc --domain=d7${DTLD}
+drush qc --domain=d6${DTLD} --makefile=d6.make
