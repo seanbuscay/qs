@@ -10,4 +10,4 @@ EMAIL_CATCHER=TRUE
 # This is your default tld such as .dev or dev1.ws
 DTLD=.dev
 # Drush Version
-DRUSH_VERSION="7.x-5.3"
+DRUSH_VERSION="7.x-5.4"
