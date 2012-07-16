@@ -7,3 +7,5 @@ QS_USER=$USER
 # If true, all out bound email will be logged rather than actually sent.  Helpful in a dev enviroment.  
 # Set false to not set this up.
 EMAIL_CATCHER=TRUE
+# This is your default tld such as .dev or dev1.ws
+DTLD=.dev
