@@ -2,6 +2,8 @@
 
 A minor fork of the Drupal Quickstart: Pre-made Development Environment with custom environment variables such as user name and password.
 
+NOTE: For a Pre-made Drupal Development Environment I recommend my more recent project @ https://github.com/seanbuscay/drupal-server .
+
 ## About this Fork
 
 This fork is an experiment in settting up Quickstart and using its modules in an already existing Ubuntu Unity enviroment.  
