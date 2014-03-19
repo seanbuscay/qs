@@ -1,6 +1,6 @@
 # QS
 
-**[DEPRECATED] - In favor of: https://github.com/seanbuscay/drupal-server **
+**[DEPRECATED] - In favor of: https://github.com/seanbuscay/drupal-server**
 
 A minor fork of the Drupal Quickstart: Pre-made Development Environment with custom environment variables such as user name and password.
 
