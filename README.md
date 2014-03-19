@@ -1,5 +1,7 @@
 # QS
 
+**[DEPRECATED] (In favor of: https://github.com/seanbuscay/drupal-server)**
+
 A minor fork of the Drupal Quickstart: Pre-made Development Environment with custom environment variables such as user name and password.
 
 NOTE: For a Pre-made Drupal Development Environment I recommend my more recent project @ https://github.com/seanbuscay/drupal-server .
